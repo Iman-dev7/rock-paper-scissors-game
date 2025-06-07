@@ -81,3 +81,4 @@ else if(humanScore === computerScore){
    
 
    }
+   playGame();
