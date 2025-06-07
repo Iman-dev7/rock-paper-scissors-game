@@ -1,4 +1,4 @@
-function getComputerChoise(){
+function getComputerChoice(){
     let randomNumber = Math.random();
     if(randomNumber < 0.33){
         return "rock";
@@ -12,7 +12,7 @@ function getComputerChoise(){
     }
 }
 
-function getHumanChoise(){
+function getHumanChoice(){
     const choice = prompt("please enter your choise: Rock , Paper or Scissors");
       return "choice";
     }
